@@ -57,4 +57,12 @@ public class CTLBuilderTest {
 		int result = CTLBuilder.getMaxLength(mockCols);
 		assertEquals(266,result);
 	}
+	
+	@Test
+	public void loadAnyTableWithNullOptsShouldDefaultToOpts() {
+		String result = CTLBuilder.generateCTL(mockTable, mockCols, CTLTypesEnum.LOAD, null);
+		assertTrue(result.contains("OPTIONS (BINDSIZE=512000, ROWS=10000)"));
+		assertTrue(result.contains("append"));
+		assertTrue(result.contains("CHARACTERSET WE8ISO8859P1"));
+	}
 }
