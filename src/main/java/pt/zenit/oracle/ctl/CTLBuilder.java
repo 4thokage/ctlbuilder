@@ -18,9 +18,9 @@ import pt.zenit.oracle.ctl.domain.DBTable;
 import pt.zenit.oracle.ctl.enums.CTLTypesEnum;
 
 /**
- * Classe utilizada para geração dos ficheiros CTL
+ * Classe utilizada para geraï¿½ï¿½o dos ficheiros CTL
  */
-class CTLBuilder {
+public class CTLBuilder {
 
 	private static final Logger LOG = LoggerFactory.getLogger(CTLBuilder.class);
 
