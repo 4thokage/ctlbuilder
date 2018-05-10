@@ -18,7 +18,7 @@ import pt.zenit.oracle.ctl.domain.DBTable;
 import pt.zenit.oracle.ctl.enums.CTLTypesEnum;
 
 /**
- * Classe utilizada para gera��o dos ficheiros CTL
+ * Main class responsable for generating oracle control files
  */
 public class CTLBuilder {
 
