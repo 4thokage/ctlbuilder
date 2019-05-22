@@ -41,4 +41,11 @@
 			<version>4.12</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		<repository>
+      			<id>repository-jsr</id>
+      			<name>Public Snapshot Repository</name>
+      			<url>https://repo.jose-rodrigues.info/repository/snapshots/</url>
+    		</repository>
+  	</distributionManagement>
 </project>
