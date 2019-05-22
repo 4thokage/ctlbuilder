@@ -7,18 +7,17 @@ See the main method in CTLBuilder.java:59 and check existing test classes for ba
 public static String generateCTL(DBTable dbTable, Collection<DBColumn> columns, CTLTypesEnum ctlType,
 			CTLOptions opts) {}
 ```
-#### Using in Your Maven Project (authorized users only)
-[Ask me for some credentials](mailto:jsr@jose-rodrigues.info)
+#### Using in Your Maven Project 
 1. Add the following repository to your pom:
 ```xml
     <repository>
         <id>repository-jsr</id>
-        <url>https://repo.jose-rodrigues.info/repository/internal/</url>
+        <url>https://repo.jose-rodrigues.info/repository/snapshots/</url>
         <releases>
-            <enabled>true</enabled>
+            <enabled>false</enabled>
         </releases>
         <snapshots>
-            <enabled>false</enabled>
+            <enabled>true</enabled>
         </snapshots>
     </repository>
 ```
