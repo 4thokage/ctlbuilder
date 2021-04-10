@@ -43,9 +43,14 @@
 	</dependencies>
 	<distributionManagement>
 		<repository>
-      			<id>repository-jsr</id>
-      			<name>Public Snapshot Repository</name>
-      			<url>https://repo.jose-rodrigues.info/repository/snapshots/</url>
-    		</repository>
-  	</distributionManagement>
+			<id>github</id>
+			<name>GitHub 4thokage Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/4thokage/db</url>
+		</repository>
+		<snapshotRepository>
+			<id>binze-jsr</id>
+			<name>Public Snapshot Repository</name>
+			<url>https://binze.jose-rodrigues.info/repository/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
