@@ -6,5 +6,5 @@ $opts.ctlLoaderType
 INTO TABLE ${table.owner}.${table.name}
 (
 #foreach($column in $allColumns)
-${tab}$column.name POSITION ($column.startPosition:$column.endPosition)#if( $foreach.hasNext ),#end -- len = ${column.lengthValue}, type = ${column.dataType} ${nl}#end
-)	
+    ${tab}$column.name POSITION ($column.startPosition:$column.endPosition)#if( $foreach.hasNext ),#end -- len = ${column.lengthValue}, type = ${column.dataType} ${nl}#end
+)
