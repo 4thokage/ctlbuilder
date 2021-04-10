@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>pt.zenit.oracle.ctl</groupId>
 	<artifactId>ctlbuilder</artifactId>
-	<version>0.0.1-RELEASE</version>
+	<version>0.0.2-RELEASE</version>
 	<name>CTLBuilder</name>
 	<description>Java utility for generating oracle sqllpus control files.</description>
 	<packaging>jar</packaging>
